@@ -1,18 +1,20 @@
 {
-  "name": "shop-management-report-tool",
-  "version": "1.0.0",
-  "main": "dist/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/electron": "^1.6.10",
-    "electron": "^32.1.1",
-    "typescript": "^5.6.2"
-  }
+    "name": "shop-management-report-tool",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron .",
+        "dev": "tsc && electron .",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/electron": "^1.6.10",
+        "electron": "^32.1.1",
+        "typescript": "^5.6.2"
+    }
 }
